@@ -1,6 +1,6 @@
 
 # blog-mexn
-## Master frameworks ( React, Vue, Angular )
+## Master frameworks ( React, Vue, Angular ) English / Español
 ```diff
 + English
 - Spanish
