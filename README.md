@@ -1,7 +1,7 @@
 
-# blog-mexn English / Español
+# blog-mexn
 
-## Master frameworks ( React, Vue, Angular ) 
+## Master frameworks ( React, Vue, Angular )  English / Español
 
 #### blog - mexn ( mern - mevn - mean ):
 
