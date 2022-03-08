@@ -2,8 +2,6 @@
 # blog-mexn
 ## Master frameworks ( React, Vue, Angular ) English / Español
 ```diff
-+ English
-- Spanish
 
 ```
 #### blog - mexn ( mern - mevn - mean ):
