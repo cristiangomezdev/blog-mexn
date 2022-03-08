@@ -58,17 +58,7 @@ First you need to do a "npm install" inside every folder to download and set the
 - Run backend
 - Run front end
 - enjoy
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
-
--OR-
-
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
+ 
           
 Installation:
 
