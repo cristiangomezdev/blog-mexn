@@ -1,12 +1,13 @@
+```diff
 # blog-mexn
 ## Master frameworks ( React, Vue, Angular )
-```diff
+
 - text in red
 + text in green
 ! text in orange
 # text in gray
 @@ text in purple (and bold)@@
-```
+
 #### blog - mexn ( mern - mevn - mean ):
 
 The main objective of this project, is to practice a CRUD with image upload option and all of the basics of the main javascript frameworks used today.
@@ -73,5 +74,5 @@ To Start Server:
   - What were some unexpected obstacles?
   - What tools did you use to implement this project?
       - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
-
+```
 
