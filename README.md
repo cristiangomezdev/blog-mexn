@@ -51,7 +51,14 @@ La subida de archivos esta construida en base a multer y la base de datos con mo
 
 #### Example:  
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
+
+First you need to do a "npm install" inside every folder to download and set the dependencies and then follow the next instructions:
+
+1_Run mongod.exe and later mongo.exe.
+2_Run backend
+3_Run front end
+4_enjoy
 
 Installation:
 
