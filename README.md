@@ -54,10 +54,10 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 
 First you need to do a "npm install" inside every folder to download and set the dependencies and then follow the next instructions:
 
-1_Run mongod.exe and later mongo.exe.
-2_Run backend
-3_Run front end
-4_enjoy
+1.Run mongod.exe and later mongo.exe.
+2.Run backend
+3.Run front end
+4.enjoy
 
 Installation:
 
