@@ -2,11 +2,9 @@
 # blog-mexn
 ## Master frameworks ( React, Vue, Angular )
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
++ English
+- Spanish
+
 ```
 #### blog - mexn ( mern - mevn - mean ):
 
