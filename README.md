@@ -30,7 +30,7 @@ you can edit any of the artcles, also change the image and delete them as well.
 Basicamente hay 3 rutas:
  - Home seccion con las ultimas 10 noticias
  - Blog seccion con todas las noticias
- - Create seccion para crear una nuevas noticias.
+ - Create seccion para crear una nueva noticia.
 
 ##### Back end:
 
