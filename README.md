@@ -25,7 +25,7 @@ Basically there are 3 routes:
  - Blog section with all the news
  - Create section to post new articles
 
-you can edit any of the artcles, also change the image and delete them as well.
+you can edit any of the articles, also change the image and delete them as well.
 
 Basicamente hay 3 rutas:
  - Home seccion con las ultimas 10 noticias
@@ -34,7 +34,7 @@ Basicamente hay 3 rutas:
 
 ##### Back end:
 
-Basically the backend is an API (express), with a CRUD and routes to access to the list of articles uploaded.
+Basically the backend is an API (express), with a CRUD and routes to access to the list of articles uploaded in a database.
 the file uploader is build with multer, and the database with mongo.
 
 Basicamente el backend consta de una api (express) con un CRUD y rutas para acceder a la lista de noticias/articulos subidos.
