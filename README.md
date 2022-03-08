@@ -70,7 +70,7 @@ To Start Server:
 
 ## Reflection
 
-  - This project was really important to gather all the frameworks and make a standart level of knowledge of how they work, how to create components, how to pass them properties, learn how to make a navigation system, use the main libraries.
-  - By doing the same exact thing in 3 different frameworks/libraries help me a lot to learn the ecosystem of javascript and it's boundaries.
-
+  - This project was really important to me, to make a standart level of knowledge of how they work.
+  - how to create components, how to pass them properties, learn how to make a navigation system, use the main libraries.
+  - By doing exactly the same thing in 3 different libraries/framewokrs has helped me a lot in learning the ecosystem of javascript and it's boundaries.
 
