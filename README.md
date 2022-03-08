@@ -1,18 +1,20 @@
 # blog-mexn
-## Project Name & Pitch
+## Master frameworks ( React, vue, Angular )
 
 #### Example:
 
-TweetWorld 
+blog - mexn ( mern - mevn - mean ) 
 
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
+The main objective of this project, is to practice all of the basics of the main javascript frameworks used today.
 
 ## Project Status
-(only necessary if incomplete)
+(finished)
 
 #### Example:
 
-This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
+This project is a blog, you can post news with image included. 
+
+Basically there are 3 routes (
 
 ## Project Screen Shot(s)
 
