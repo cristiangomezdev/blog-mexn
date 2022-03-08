@@ -43,8 +43,8 @@ La subida de archivos esta construida en base a multer y la base de datos con mo
 ## Project ScreenShot(s)
 
 #### this is how it looks:   
+![alt text](https://imgkub.com/images/2022/03/08/example-masterframework.jpg)
 
-![alt text](https://imgkub.com/images/2022/03/08/example-calendar.jpg)
 
 ## Installation and Setup Instructions
 
