@@ -1,9 +1,8 @@
 
 # blog-mexn
-## Master frameworks ( React, Vue, Angular ) English / Español
-```diff
 
-```
+## Master frameworks ( React, Vue, Angular ) English / Español
+
 #### blog - mexn ( mern - mevn - mean ):
 
 The main objective of this project, is to practice a CRUD with image upload option and all of the basics of the main javascript frameworks used today.
@@ -71,11 +70,7 @@ To Start Server:
 
 ## Reflection
 
-  - What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
-  - What did you set out to build?
-  - Why was this project challenging and therefore a really good learning experience?
-  - What were some unexpected obstacles?
-  - What tools did you use to implement this project?
-      - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
+  - This project was really important to gather all the frameworks and make a standart level of knowledge of how they work, how to create components, how to pass them properties, learn how to make a navigation system, use the main libraries.
+  - By doing the same exact thing in 3 different frameworks/libraries help me a lot to learn the ecosystem of javascript and it's boundaries.
 
 
