@@ -41,15 +41,15 @@ the file uploader is build with multer, and the database with mongo.
 Basicamente el backend consta de una api (express) con un CRUD y rutas para acceder a la lista de noticias/articulos subidos.
 La subida de archivos esta construida en base a multer y la base de datos con mongo.
 
-## Project Screen Shot(s)
+## Project ScreenShot(s)
 
-#### Example:   
+#### this is how it looks:   
 
 ![alt text](https://imgkub.com/images/2022/03/08/example-masterframework.jpg)
 
 ## Installation and Setup Instructions
 
-#### Example:  
+#### Instructions:  
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
