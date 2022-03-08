@@ -1,0 +1,37 @@
+<app-slider [size]="'big'" [nombre]="'formulario'">
+
+</app-slider>
+<div class="center">
+    <section id="content">
+        <h1 class="subheader">Formulario</h1>
+        <form class="full-form" #userForm="ngForm" (ngSubmit)="onSubmit()">
+            <div class="from-group">
+                <label for="nombre">nombre</label>
+                <input type="text" name="nombre" #nombre="ngModel" [(ngModel)]="user.nombre" required pattern="[a-zA-Z]+">
+                <small *ngIf="!nombre.valid && nombre.touched">El nombre no es valido</small>
+            </div>
+            <div class="from-group">
+                <label for="apellido">apellido</label>
+                <input type="text" name="apellido" #apellido="ngModel" [(ngModel)]="user.apellidos" required pattern="[a-zA-Z]+">
+                <small *ngIf="!apellido.valid && apellido.touched">El apellido no es valido</small>
+            </div>
+            <div class="from-group">
+                <label for="biografia">biografia</label>
+                <input type="text" name="biografia" #biografia="ngModel" [(ngModel)]="user.biografia" required pattern="[a-zA-Z]+">
+                <small *ngIf="!biografia.valid && biografia.touched">La bio es invalida</small>
+            </div>
+            <div class="from-group radio-buttons">
+
+                <input type="radio" name="genero" value="hombre" #genero="ngModel" [(ngModel)]="user.genero" required>Hombre
+                <input type="radio" name="genero" value="mujer" #genero="ngModel" [(ngModel)]="user.genero" required>Mujer
+                <input type="radio" name="genero" value="otro" #genero="ngModel" [(ngModel)]="user.genero" required>Otro
+                <small *ngIf="!genero.valid && genero.touched">
+                    selecciona uno
+                </small>
+            </div>
+            <div class="clearfix"></div>
+            <input type="submit" value="enviar" class="btn btn-success" [disabled]="userForm.invalid">
+        </form>
+    </section>
+    <app-sidebar></app-sidebar>
+</div>

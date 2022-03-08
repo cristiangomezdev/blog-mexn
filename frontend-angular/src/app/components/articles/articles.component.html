@@ -1,0 +1,14 @@
+<div class="loading" *ngIf="!articles">
+    Cargando contenido
+</div>
+<article class="article-item" id="article-template" *ngFor="let article of articles">
+    <div class="image-wrap">
+        <img src="{{url + 'get-image/' + article.image}}" alt="article photo" *ngIf="article.image">
+        <img src="assets/images/404.png" alt="article photo" *ngIf="!article.image">
+    </div>
+    <h2>{{article.title}}</h2>
+    <h3 class="article-context">{{article.content}}</h3>
+    <span class="date">{{article.date | amLocale: 'es'| amTimeAgo}}</span>
+    <a [routerLink]="['/blog/articulo/'+ article._id]">Leer mas</a>
+    <div class="clearfix"></div>
+</article>

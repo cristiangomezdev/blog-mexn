@@ -1,0 +1,27 @@
+<header id="header">
+    <div class="center">
+        <!-- logo -->
+        <div id="logo">
+            <img src="assets/images/angular.svg" class=" hover-underline-animation app-logo" alt="logotico">
+            <span id="brand">
+                <strong>B</strong>log
+            </span>
+        </div>
+        <!-- menu -->
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a [routerLink]="['/home']" [routerLinkActiveOptions]="{ exact: true }" [routerLinkActive]="'active'" class="hover-underline-animation">Home</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/blog']" [routerLinkActiveOptions]="{ exact: true }" [routerLinkActive]="'active'" class="hover-underline-animation">Blog</a>
+                </li>
+                <li>
+                    <a [routerLink]="['blog/crear']" [routerLinkActiveOptions]="{ exact: true }" [routerLinkActive]="'active'" class="hover-underline-animation">New</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </div>
+
+</header>

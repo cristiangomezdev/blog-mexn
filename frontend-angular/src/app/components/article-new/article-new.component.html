@@ -1,0 +1,25 @@
+<div class="center">
+    <section id="content">
+        <h1 class="subheader">Crear articulo</h1>
+        <form class="full-form" #articleForm="ngForm" (ngSubmit)="onSubmit()">
+            <div class="from-group">
+                <label for="nombre">Title</label>
+                <input type="text" name="title" #title="ngModel" [(ngModel)]="article.title" required pattern="[a-zA-Z]+">
+                <small *ngIf="!title.valid && title.touched">El title no es valido</small>
+            </div>
+
+            <div class="from-group">
+                <label for="content">Content</label>
+                <input type="text" name="content" #content="ngModel" [(ngModel)]="article.content" required pattern="[a-zA-Z]+">
+                <small *ngIf="!content.valid && content.touched">Contenido es invalido</small>
+            </div>
+            <div class="from-group">
+                <angular-file-uploader [config]="afuConfig" (ApiResponse)="imageUpload($event)">
+                </angular-file-uploader>
+            </div>
+            <div class="clearfix"></div>
+            <input type="submit" value="guardar" class="btn btn-success" [disabled]="articleForm.invalid">
+        </form>
+    </section>
+    <app-sidebar></app-sidebar>
+</div>
