@@ -31,7 +31,7 @@ the file uploader is build with multer, and the database with mongo.
 
 #### Example:   
 
-[ PRETEND SCREEN SHOT IS HERE ]
+![alt text](https://imgkub.com/image/jTZSi)
 
 [ PRETEND OTHER SCREEN SHOT IS HERE ]
 
