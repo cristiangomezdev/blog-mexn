@@ -1,20 +1,31 @@
 # blog-mexn
-## Master frameworks ( React, vue, Angular )
+## Master frameworks ( React, Vue, Angular )
 
-#### Example:
+#### blog - mexn ( mern - mevn - mean ):
 
-blog - mexn ( mern - mevn - mean ) 
-
-The main objective of this project, is to practice all of the basics of the main javascript frameworks used today.
+ 
+The main objective of this project, is to practice a CRUD with file upload option and all of the basics of the main javascript frameworks used today.
 
 ## Project Status
 (finished)
 
-#### Example:
+#### about the project:
 
-This project is a blog, you can post news with image included. 
+This project is a blog, you can post news with image included, search formulary and edit section.
 
-Basically there are 3 routes (
+##### Front end:
+
+Basically there are 3 routes:
+.Home section with the 10 last news
+.Blog section with all the news
+.Create section to post new articles
+
+you can edit any of the artcles, also change the image and delete them as well.
+
+##### Back end:
+
+basically the backend is an API (express), with a CRUD and routes to access to the list of articles uploaded.
+the file uploader is build with multer, and the database with mongo.
 
 ## Project Screen Shot(s)
 
@@ -34,17 +45,10 @@ Installation:
 
 `npm install`  
 
-To Run Test Suite:  
-
-`npm test`  
 
 To Start Server:
 
 `npm start`  
-
-To Visit App:
-
-`localhost:3000/ideas`  
 
 ## Reflection
 
@@ -55,12 +59,4 @@ To Visit App:
   - What tools did you use to implement this project?
       - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
 
-#### Example:  
 
-This was a 3 week long project built during my third module at Turing School of Software and Design. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
-
-Originally I wanted to build an application that allowed users to pull data from the Twitter API based on what they were interested in, such as 'most tagged users'. I started this process by using the `create-react-app` boilerplate, then adding `react-router-4.0` and `redux`.  
-
-One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
-
-At the end of the day, the technologies implemented in this project are React, React-Router 4.0, Redux, LoDash, D3, and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a `webpack.config.js` file to more fully understand the build process.
