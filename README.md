@@ -1,9 +1,14 @@
 # blog-mexn
 ## Master frameworks ( React, Vue, Angular )
-
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 #### blog - mexn ( mern - mevn - mean ):
 
- 
 The main objective of this project, is to practice a CRUD with image upload option and all of the basics of the main javascript frameworks used today.
 
 El objetivo principal de este projecto, es la practica de un CRUD con subida de imagen y lo basico de los principales frameworks de javascript usados hoy en dia.
