@@ -21,16 +21,16 @@ Este projecto es un blog, se pueden postear noticias con imagen incluida, seccio
 ##### Front end:
 
 Basically there are 3 routes:
-.Home section with the 10 last news
-.Blog section with all the news
-.Create section to post new articles
+ - Home section with the 10 last news
+ - Blog section with all the news
+ - Create section to post new articles
 
 you can edit any of the artcles, also change the image and delete them as well.
 
 Basicamente hay 3 rutas:
-.Home seccion con las ultimas 10 noticias
-.Blog seccion con todas las noticias
-.Create seccion para crear una nuevas noticias.
+ - Home seccion con las ultimas 10 noticias
+ - Blog seccion con todas las noticias
+ - Create seccion para crear una nuevas noticias.
 
 ##### Back end:
 
