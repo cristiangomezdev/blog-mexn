@@ -3,7 +3,7 @@
 
 ## Master frameworks ( React, Vue, Angular )  English / Español
 
-#### blog - mexn ( mern - mevn - mean ):
+#### blog - mexn ( mern - mevn - mean )
 
 The main objective of this project, is to practice a CRUD with image upload option and all of the basics of the main javascript frameworks used today.
 
